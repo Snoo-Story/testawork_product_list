@@ -1,0 +1,200 @@
+.promoInformation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.informationColumn {
+    display: flex;
+    column-gap: 64px;
+}
+
+.columnInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.purchaseInfo {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.descriptionBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    border-bottom: 1px solid #E2E4F0;
+    padding-bottom: 32px;
+}
+
+.descriptionItem {
+    display: flex;
+    column-gap: 10px;
+    height: 22px;
+    align-items: center;
+}
+
+.discount {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #FF3D71
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #071435;
+}
+
+.discountMark {
+    background-color: #FF3D71;
+    width: 53px;
+    height: 22px;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.checkBoxBlock {
+    display: flex;
+    column-gap: 10px;
+}
+
+.checkboxForm {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.checkboxDescription {
+    width: 111px;
+    height: 26px;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 0 0 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0px;
+    color: #828EAD;
+    background-color: #F2F5F9;
+    text-align: center;
+}
+
+.checkboxP {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #071435;
+}
+
+.productStats {
+    border-left: 1px solid #E2E4F0;
+    padding-left: 32px;
+    display: flex;
+    row-gap: 24px;
+    flex-direction: column;
+}
+
+.statsTitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #071435;
+}
+
+.statsCode {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #071435;
+}
+
+.statsText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #828EAD;
+}
+
+.statsColumns {
+    display: flex;
+    column-gap: 8;
+}
+
+.firstColumn {
+    width: 302px;
+}
+
+.statsFlex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.productDescriptionTitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #071435;
+}
+
+.productDescriptionParagraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #071435;
+}
+
+.productsFullInfo {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.purchaseInfo {
+    display: flex;
+    column-gap: 16px;
+}
+
+.purchaseFullInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.infoMark {
+    height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #071435;
+}
+
+.type {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #828EAD;
+}

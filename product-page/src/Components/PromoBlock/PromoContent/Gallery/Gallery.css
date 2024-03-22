@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.galleryItem {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    height: 64px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px 8px 0px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F2F6FF;
+    color: #1551E5;
+    font-size: 24px;
+}
+
